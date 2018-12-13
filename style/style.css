@@ -1,0 +1,174 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("../img/Color-Kids-thumbs-up.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+} 
+.reg_box{
+	min-width: 400px;
+	min-height: 650px;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	border: 1px solid black;
+	box-shadow: 2px 2px black;
+	border-radius: 25px;
+}
+body .reg_box2{
+	min-height: 800px;
+}
+a{
+	color: black;
+	font-family: cursive;
+	font-weight: bold;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-decoration: none;
+}
+.flex{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+h1{
+	padding: 10px;
+	font-weight: 700;
+	color:#69c0f3;
+	text-shadow: 6px 6px black;
+	font-size: 85px;
+	font-family: cursive;
+	font-weight: bold;
+}
+h2{
+	font-weight: 700;
+	color: white;
+	text-shadow: 2px 2px black;
+	font-family: cursive;
+	font-weight: bold;
+}
+h3{
+	padding: 10px;
+	font-weight: 700;
+	color:#69c0f3;
+	text-shadow: 2px 2px black;
+	font-size: 40px;
+	font-family: cursive;
+	font-weight: bold;
+}
+h4{
+	padding: 10px;
+	font-weight: 700;
+	color:black;
+	font-size: 40px;
+	font-family: cursive;
+	font-weight: bold;
+}
+p{
+	font-family: cursive;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.input{
+	width: 300px;
+	height: 30px;
+	margin-top: 5px;
+	padding: 2px;
+}
+button{
+	padding: 5px 10px 10px 10px;
+	cursor: pointer;
+	font-size: 20px;
+	border: none;
+	text-decoration: none;
+	background-color: #3c8dbc;
+	font-family: cursive;
+	font-weight: bold;
+	border-radius: 20px;
+	color: #fff;
+	margin: 0px 5px 20px 5px;
+	border: 1px solid black;
+	box-shadow: 2px 2px black;
+
+}
+.but1{
+	min-width: 120px;
+	height: 40px;
+}
+.but2 {
+	height: 30px;
+	font-size: 12px;
+}
+.kids{
+	width: 80%;
+	height: 155px;
+	margin: 5px;
+	background-image: url("../img/kids.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.kiss{
+	width: 400px;
+	height: 200px;
+	margin: 5px;
+	background-image: url("../img/kiss.jpg");
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+table {
+	border-collapse: collapse;
+	margin: 20px;
+
+}
+
+th, td {
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+.menu_box{
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	grid-gap: 10px;
+}
+.box{
+	font-size: 20px;
+	color: black;
+	width: 200px;
+	height: 200px;
+	background-color: #f2f2f2;
+	border: 1px solid black;
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.hiBox{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #fff;
+	border: 1px solid black;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 2px 2px black;
+	border-radius: 25px;
+}
